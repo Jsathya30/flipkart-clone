@@ -1,0 +1,18 @@
+.CategoryBar{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.CategoryBar-Img{
+    width: 65px;;
+}
+.CategoryBar-Img > img{
+    width: 100%;
+}
+.CategoryBar-name{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 0;
+}

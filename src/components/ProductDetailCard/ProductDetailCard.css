@@ -1,0 +1,74 @@
+.ProductDetailCard{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.ProductDetailCard-Img{
+    width:200px;
+    height: 200px;;
+
+}
+.ProductDetailCard-Img > img{
+    width:250px;
+    height: 180px;
+    object-fit: contain;
+}
+.ProductDetailCard-details{
+    width: 40%;
+    padding: 10px 20px;
+    color: black;
+}
+.ProductDetailCard-name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.ratingsAndreviews{
+    display: flex;
+    /* flex-direction: row; */
+    padding: 5px 0;
+}
+.stars{
+    background: #388e3c;
+    font-size: 12px;
+    padding: 2px 3px 2px 3px;
+    color: white;
+    border-radius: 4px;
+    width: 11%;
+}
+.ratings{
+    color: gray;
+    font-size: 13px;
+    padding-left: 8px;
+}
+.ProductDetailCard-Productdetails{
+    padding: 10px;
+}
+.ProductDetailCard-detail{
+    list-style-type: none;
+    font-size: 14px;
+    color: #212121;
+    padding: 4px 0;
+    font-weight: 400;
+}
+.ProductDetailCard-PriceandDelivery{
+    padding: 20px;
+    color: black;
+}
+.pricecontainer{
+    display: flex;
+    align-items: center;
+}
+.freedel{
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 300;
+    color: #212121;
+}
+.discount{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+}
